@@ -6,6 +6,15 @@ export default defineUserConfig({
   title: 'MY NOTES',
   description: '我的个人博客',
   base: '/note/',
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: './icon.ico'
+      }
+    ]
+  ],
   theme: defaultTheme({
     navbar: [
       {
@@ -33,6 +42,11 @@ export default defineUserConfig({
           {
             text: '初识React',
             children: ['/web/初识React.md'],
+            collapsible: true
+          },
+          {
+            text: '使用vuePress创建个人博客',
+            children: ['/web/使用vuePress创建个人博客.md'],
             collapsible: true
           },
         ],
