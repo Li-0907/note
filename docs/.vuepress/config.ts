@@ -6,7 +6,6 @@ export default defineUserConfig({
   title: 'MY NOTES',
   description: '我的个人博客',
   base: '/note/',
-  dest: './dist',
   theme: defaultTheme({
     navbar: [
       {
