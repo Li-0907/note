@@ -49,6 +49,16 @@ export default defineUserConfig({
             children: ['/web/使用vuePress创建个人博客.md'],
             collapsible: true
           },
+          {
+            text: 'state&ref 注意事项',
+            children: ['/web/state&ref注意事项.md'],
+            collapsible: true
+          },
+          {
+            text: '类组件使用state_props_ref',
+            children: ['/web/类组件使用state_props_ref.md'],
+            collapsible: true
+          }
         ],
         collapsible: true
       },
