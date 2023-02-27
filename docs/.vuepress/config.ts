@@ -58,6 +58,11 @@ export default defineUserConfig({
             text: '类组件使用state_props_ref',
             children: ['/web/类组件使用state_props_ref.md'],
             collapsible: true
+          },
+          {
+            text: 'React常用数组方法扩充',
+            children: ['/web/React常用数组方法扩充.md'],
+            collapsible: true
           }
         ],
         collapsible: true
