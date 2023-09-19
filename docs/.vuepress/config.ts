@@ -63,7 +63,12 @@ export default defineUserConfig({
             text: 'React常用数组方法扩充',
             children: ['/web/React常用数组方法扩充.md'],
             collapsible: true
-          }
+          },
+          {
+            text: 'scss使用变量切换主题色',
+            children: ['/web/scss使用变量切换主题色.md'],
+            collapsible: true
+          },
         ],
         collapsible: true
       },
