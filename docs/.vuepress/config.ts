@@ -69,6 +69,11 @@ export default defineUserConfig({
             children: ['/web/scss使用变量切换主题色.md'],
             collapsible: true
           },
+          {
+            text: 'css选择器优先级比较',
+            children: ['/web/css选择器优先级比较.md'],
+            collapsible: true
+          },
         ],
         collapsible: true
       },
